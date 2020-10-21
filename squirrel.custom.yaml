@@ -1,0 +1,40 @@
+patch:
+
+  us_keyboard_layout: true # 键盘选项：应用美式键盘布局
+  style/horizontal: true # 候选窗横向显示
+  style/font_face: "Courier Prime Regular" # 我喜欢的字体名称
+  style/font_point: 24 # 字号
+  style/corner_radius: 10 # 窗口圆角半径
+  style/border_height: 0 # 窗口边界高度，大於圆角半径才有效果
+  style/border_width: 0 # 窗口边界宽度，大於圆角半径才有效果
+  style/color_scheme: dark_temple
+  # 關閉中文輸入
+  # @see [http://code.google.com/p/rimeime/wiki/CustomizationGuide#在特定程序裏關閉中文輸入]
+  #
+  # Bundle Identifier 查找方法：
+  # 右键『应用.app』-> 显示包内容
+  # Contents/Info.plist -> BundleIdentifier
+  #           Bundle Identifier
+  app_options/com.apple.Xcode:
+    ascii_mode: true
+  app_options/com.sublimetext.sublimetext:
+    ascii_mode:true
+  app_options/org.vim.MacVim:
+    ascii_mode:true
+  app_options/com.google.Chrome:
+    ascii_mode: true
+  app_options/org.mozilla.firefox:
+    ascii_mode: true
+  app_options/com.apple.Safari:
+    ascii_mode: true
+  app_options/com.operasoftware.Opera:
+    ascii_mode: true
+  app_options/org.keepassx.keepassx:
+    ascii_mode: true
+  app_options/com.apple.Spotlight:
+    ascii_mode: true
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
+  app_options/com.runningwithcrayons.Alfred-2:
+    ascii_mode: true
+

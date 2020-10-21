@@ -1,0 +1,98 @@
+patch:
+  schema_list:
+  	- schema: wubi_pinyin
+  	- schema: emoji
+    - schema: wubixinshiji  
+
+  "menu/page_size": 7   # 每頁候選數
+#下面定义中英文切换的方式
+    ascii_composer/good_old_caps_lock:  true
+    ascii_composer/switch_key:
+    Caps_Lock: Control
+    Control_L: commit_text
+    Control_R: commit_text
+    Eisu_toggle: clear
+    Shift_L: inline_ascii
+    Shift_R: inline_ascii
+
+#下面定义“输入选单”的切换控制
+    switcher:
+        abbreviate_options: true
+        caption: "〔切换〕"          #把默认的“方案選單”修改为了“切换”。
+        fold_options: true
+        hotkeys:
+            - "Control+grave"       #默认方案
+            - "Control+Shift+grave"   #默认方案
+            - "Control+s"             #新增方案
+        option_list_separator: "／"   #以下都为默认custom.yaml文件的默认配置，copy过来就可以。
+        save_options:
+            - full_shape
+            - ascii_punct
+            - simplification
+            - extended_charset
+  "style":
+  	font_point: 16
+  	font_face: "Source Code Pro"
+  	line_spacing: 1
+  	spacing: 5
+  "punctuator":
+    half_shape:
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": "#"
+      "$": ["￥", "$", "€", "£", "¥", "¢"]
+      "%": ["%", "°", "℃"]
+      "&": "&"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": ["*", "·", "×"]
+      "+": "+"
+      ",": {commit: "，"}
+      "-": "-"
+      .: {commit: "。"}
+      "/": {commit: "、"}
+      ":": {commit: "："}
+      ";": {commit: "；"}
+      "<": {commit: "《"}
+      "=": "="
+      ">": {commit: "》"}
+      "?": {commit: "？"}
+      "@": "@"
+      "[": {commit: "["}
+      "\\": {commit: "\\"}
+      "]": {commit: "]"}
+      "^": {commit: "……"}
+      _: "——"
+      "`": "`"
+      "{": {commit: "{"}
+      "|": {commit: "|"}
+      "}": {commit: "}"}
+      "~": {commit: "~"}
+  "punctuator/half_shape/%":
+      - "%"
+      - "‰"
+      - "‱"
+      - "％"
+      - "°"
+      - "℃"
+  "punctuator/half_shape/%":
+      - "%"
+      - "‰"
+      - "‱"
+      - "％"
+      - "°"
+      - "℃"
+  "punctuator/half_shape/y":
+      - "✓"
+      - "✔"
+  "punctuator/half_shape/n":
+      - "✗"
+      - "✘"
+      - "✖"
+      - "✕"
+   "punctuator/half_shape/x":
+      - "★"
+      - "☆"
+      - "☯"
+

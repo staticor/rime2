@@ -1,0 +1,9 @@
+2015/12/29-23:21:05.010167 7000002a0000 Log #600: 4 ops saved to Table #605 OK
+2015/12/29-23:21:05.010830 7000002a0000 Archiving /Users/jinyongyang/Library/Rime/wubi86.userdb/000600.log: OK
+2015/12/29-23:21:05.074483 7000002a0000 Table #601: 46045 entries OK
+2015/12/29-23:21:05.095283 7000002a0000 Table #602: 45092 entries OK
+2015/12/29-23:21:05.123632 7000002a0000 Table #603: 45522 entries OK
+2015/12/29-23:21:05.129062 7000002a0000 Table #604: 10756 entries OK
+2015/12/29-23:21:05.129126 7000002a0000 Table #605: 4 entries OK
+2015/12/29-23:21:05.129885 7000002a0000 Archiving /Users/jinyongyang/Library/Rime/wubi86.userdb/MANIFEST-000598: OK
+2015/12/29-23:21:05.132448 7000002a0000 **** Repaired leveldb /Users/jinyongyang/Library/Rime/wubi86.userdb; recovered 5 files; 6853266 bytes. Some data may have been lost. ****

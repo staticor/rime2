@@ -1,0 +1,7 @@
+var:
+  option:
+    ascii_punct: true
+  previously_selected_schema: wubi_pinyin
+  schema_access_time:
+    luna_pinyin: 1436430185
+    wubi_pinyin: 1436430189
