@@ -1,73 +1,71 @@
 __build_info:
-  rime_version: 1.5.3
+  rime_version: 1.7.3
   timestamps:
-    squirrel: 1561294610
-    squirrel.custom: 1457661055
+    squirrel: 1613228858
+    squirrel.custom: 1622429859
 app_options:
-  co.zeit.hyper:
+  com.agilebits.onepassword7:
     ascii_mode: true
-  com.alfredapp.Alfred:
+  "com.agilebits.onepassword7-helper":
     ascii_mode: true
-  com.apple.Safari:
+  com.apple.ActivityMonitor:
     ascii_mode: true
   com.apple.Spotlight:
     ascii_mode: true
   com.apple.Terminal:
     ascii_mode: true
-    no_inline: true
-  com.apple.Xcode:
+  com.apple.calculator:
     ascii_mode: true
   com.apple.dt.Xcode:
     ascii_mode: true
-  com.barebones.textwrangler:
+  com.apple.finder:
     ascii_mode: true
-  com.blacktree.Quicksilver:
+  com.apple.keychainaccess:
     ascii_mode: true
-  com.github.atom:
+  com.apple.launchpad.launcher:
     ascii_mode: true
-  com.google.Chrome:
+  com.apple.systempreferences:
+    ascii_mode: true
+  com.eusoft.eudic:
     ascii_mode: true
   com.googlecode.iterm2:
     ascii_mode: true
-  com.macromates.TextMate.preview:
+  com.jetbrains.datagrip:
     ascii_mode: true
-  com.microsoft.VSCode:
+  com.jetbrains.intellij:
     ascii_mode: true
-  com.operasoftware.Opera:
+  com.jetbrains.pycharm:
     ascii_mode: true
-  "com.runningwithcrayons.Alfred-2":
+  com.kapeli.dashdoc:
     ascii_mode: true
-  com.sublimetext.2:
+  com.runningwithcrayons.Alfred:
     ascii_mode: true
-  com.sublimetext.sublimetext: "ascii_mode:true"
-  org.gnu.Aquamacs:
+  com.sequelpro.SequelPro:
     ascii_mode: true
-  org.gnu.Emacs:
+  com.sublimetext.3:
     ascii_mode: true
-    no_inline: true
-  org.keepassx.keepassx:
+  com.svend.uPic:
     ascii_mode: true
-  org.mozilla.firefox:
+  io.nteract.nteract:
     ascii_mode: true
-  org.vim.MacVim: "ascii_mode:true"
+  io.termix.client:
+    ascii_mode: true
 chord_duration: 0.1
-config_version: 0.33
+config_version: 0.37
 preset_color_schemes:
   apathy:
     author: "LIANG Hai"
     back_color: 0xFFFFFF
     border_height: 0
-    border_width: 0
+    border_width: 8
     candidate_format: "%c %@ "
     comment_text_color: 0x999999
     corner_radius: 5
-    font_face: "PingFangSC-Regular,HanaMinB"
     font_point: 16
     hilited_candidate_back_color: 0xFFF0E4
     hilited_candidate_text_color: 0xEE6E00
     horizontal: true
     inline_preedit: true
-    label_font_face: "STHeitiSC-Light"
     label_font_point: 12
     name: "冷漠／Apathy"
     text_color: 0x424242
@@ -145,7 +143,7 @@ preset_color_schemes:
     label_font_face: SimHei
     label_font_point: 10
     name: "浮尘／Dust"
-    text_color: 0x424242
+    text_color: 0x9e9e9e
   google:
     author: "skoj <skoj@qq.com>"
     back_color: 0xFFFFFF
@@ -191,6 +189,14 @@ preset_color_schemes:
     hilited_text_color: 0x7fffff
     name: "明月／Luna"
     text_color: 0xa5a5a5
+  mingcheng:
+    corner_radius: 5
+    font_face: "Sarasa Mono SC Light,PingFang SC Light"
+    font_point: 20
+    horizontal: true
+    inline_preedit: true
+    line_spacing: 5
+    spacing: 10
   mojave_dark:
     author: "xiehuc <xiehuc@gmail.com>"
     back_color: 0x252320
@@ -276,17 +282,8 @@ preset_color_schemes:
     hilited_text_color: 0xfecb96
     name: "星際我爭霸／StarCraft"
     text_color: 0xccaa88
+show_notifications_via_notification_center: true
 show_notifications_when: appropriate
 style:
-  border_height: 0
-  border_width: 0
-  color_scheme: dark_temple
-  corner_radius: 10
-  font_face: "Courier Prime Regular"
-  font_point: 24
-  horizontal: true
-  inline_preedit: true
-  label_font_point: 18
-  line_spacing: 5
-  spacing: 10
-us_keyboard_layout: true
+  color_scheme: apathy
+us_keyboard_layout: false

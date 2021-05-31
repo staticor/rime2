@@ -1,0 +1,62 @@
+# Rime schema settings
+# encoding: utf-8
+
+patch:
+  switches:
+    - name: ascii_mode
+      reset: 1
+      states: ["中文", "西文"]
+    - name: full_shape
+      states: ["半角", "全角"]
+    - name: simplification
+      reset: 1
+      states: ["漢字", "汉字"]
+    - name: extended_charset
+      states: ["常用", "增廣" ]
+    - name: ascii_punct
+      states: ["。，", "．，"]
+
+
+  "engine/filters/@before 0": cjk_minifier
+  "engine/filters/@next": simplifier
+  "translator/enable_charset_filter": true
+
+  "speller/max_code_length": 10 #最长4码
+  "speller/auto_select": false #顶字上屏
+  "speller/auto_select_unique_candidate": false #无重码自动上屏
+
+  "translator/dictionary": wubi_pinyin.extended #加载五笔词库
+
+  "engine/translators/@next": table_translator@custom_phrase  #加载自定义短语库
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+
+#  符号快速输入和部分符号的快速上屏
+  punctuator:
+    import_preset: alternative
+    half_shape:
+      "#": "#"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": ["/", "÷"]
+      '\': "、"
+      "_" : "──"
+      "'": {pair: ["「", "」"]}
+      "[": ["【", "["]
+      "]": ["】", "]"]
+      "$": ["¥", "$", "€", "£", "¢", "¤"]
+      "<": ["《", "〈", "«", "<"]
+      ">": ["》", "〉", "»", ">"]
+  recognizer:
+    patterns:
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:|^[a-z]+[.]).*$"
+      punct: "^/([a-z]+|[0-9]0?)$"

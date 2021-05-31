@@ -1,0 +1,17 @@
+# squirrel.custom.yaml
+
+patch:
+  show_notifications_when: always  # 状态通知，适当(appropriate)，开（always）关（never）
+
+  style:
+     horizontal: true
+     color_scheme: lost_temple
+
+# 在指定app 内 关闭中文输入
+  app_options/com.apple.Xcode:
+    ascii_mode: true
+  app_options/com.jetbrains.intellij.ce:
+    ascii_mode: true
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
+  app_options/com.alfredapp.Alfred: {}

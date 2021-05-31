@@ -1,0 +1,10 @@
+var:
+  option:
+    ascii_punct: false
+  previously_selected_schema: wubi_pinyin
+  schema_access_time:
+    cangjie5: 1470281185
+    emoji: 1559254827
+    luna_pinyin: 1470281178
+    luna_pinyin_simp: 1470281323
+    wubi_pinyin: 1559254831

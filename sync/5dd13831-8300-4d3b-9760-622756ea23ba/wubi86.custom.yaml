@@ -1,0 +1,17 @@
+# Rime custom settings
+# encoding: utf-8
+
+patch:
+  style:
+    horizontal: true  #是否横排候选项。true横排，false竖排
+  menu:
+    page_size: 5  #设置候选项数目
+  speller:
+    max_code_length: 4  #设置最大码长。五笔最长4码
+    auto_select: true   #是否顶字上屏。true顶字上屏
+    auto_select_unique_candidate: true  #是否无重码自动上屏。true自动上屏
+  key_binder/bindings:
+    #- {when: has_menu, accept: Shift+Shift_L, send: 2} #左shift选2
+    #- {when: has_menu, accept: Shift+Shift_R, send: 3} #右shift选3
+    - {when: has_menu, accept: period, send: period} #打字时不用句号翻页
+    - {when: paging, accept: period, send: Page_Down} #如果使用+-等翻页键翻页过后，句号键就不再顶字，只能与逗号一起用来翻页

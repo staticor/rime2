@@ -1,0 +1,70 @@
+patch:
+  menu:
+    page_size: 7 # 设置候选字数量  个人喜好 7 
+  schema_list:
+  - schema: wubi_pinyin          # 五笔拼音混合輸入 偶尔生字需要拼音
+  - shcema: luna_pinyin_simp          # luna 拼音 个人几乎不用
+  - schema: emoji         # emoji表情
+
+
+#下面定义“输入选单”的切换控制
+  switcher:
+    abbreviate_options: true
+    caption: "〔切换〕"          #把默认的“方案選單”修改为了“切换”。
+    fold_options: true
+    hotkeys:
+      - "Control+s"       #默认方案
+      - "Command+Shift+grave"   #默认方案
+      
+    option_list_separator: "／"   #以下都为默认custom.yaml文件的默认配置，copy过来就可以。       
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
+  style:
+    color_schema: native
+    horizontal: true
+    font_face: "Hiragino Sans GB"
+    font_point: 16
+    inline_preedit: true
+    corner_radius: 10
+    border_height: 0
+    border_width: 0
+    line_spacing: 1
+    spacing: 5
+  
+  punctuator:
+    half_shape:
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": "#"
+      "$": ["￥", "$", "€", "£", "¥", "¢"]
+      "%": ["%", "°", "℃"]
+      "&": "&"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": ["*", "·", "×"]
+      "+": "+"
+      ",": {commit: "，"}
+      "-": "-"
+      .: {commit: "。"}
+      "/": {commit: "、"}
+      ":": {commit: "："}
+      ";": {commit: "；"}
+      "<": {commit: "《"}
+      "=": "="
+      ">": {commit: "》"}
+      "?": {commit: "？"}
+      "@": "@"
+      "[": {commit: "["}
+      "\\": {commit: "\\"}
+      "]": {commit: "]"}
+      "^": {commit: "……"}
+      _: "——"
+      "`": "`"
+      "{": {commit: "{"}
+      "|": {commit: "|"}
+      "}": {commit: "}"}
+      "~": {commit: "~"}

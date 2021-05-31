@@ -1,0 +1,640 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Luna Pinyin Extended Dictionary(Chinese&English) - 明月拼音擴充詞庫（含西文的詞彙）
+#
+#   瑾昀 <cokunhui@gmail.com>
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+# no comment
+
+---
+name: luna_pinyin.cn_en
+version: "2016.8.3"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+
+2B	er bi	100
+3D Touch	san d touch	100
+3DS MAX	san d s	100
+3G	san ji	100
+4G	si ji	100
+阿 Q	a q	100
+阿 Q 正傳	a q zheng zhuan	100
+單邊 z 變換	dan bian z bian huan	100
+逗 B	dou bi	100
+哆啦 A 夢	duo la a meng	100
+卡拉 OK	ka la ok	100
+牛 B	niu bi	100
+三 K 黨	san k dang	100
+三 K 黨	san kei dang	100
+傻 B	sha bi	100
+智能 ABC	zhi neng abc	100
+裝 B	 zhuang bi	100
+A 股	a gu	100
+Adobe After Effects	adobe after effects	100
+Adobe Photoshop	adobe photoshop	100
+Afterlight	after light	100
+Air Display	air display	100
+Air Video	air video	100
+AirDroid	air droid	100
+AirDrop	air drop	100
+airFiber	air fiber	100
+Airmail	air mail	100
+airMAX	air max	100
+AirPlay	air play	100
+AirPort	air port	100
+AirPort Express	air port	100
+AirPort Extreme	air port	100
+AirPort Time Capsule	air port	100
+AirPrint	air print	100
+airPrism	air prism	100
+AirServer	air server	100
+Al Nile	alnile	100
+Al Tarikh	altarikh	100
+Alphabet	alpha bet	100
+Amazon Cloud Drive	amazon cloud drive	100
+Amazon Fire	amazon fire	100
+AmazonBasics	amazon basics	100
+Andale Mono	andale mono	100
+App Store	app store	100
+App Store Marketing Guidelines	app store marketing guidelines	100
+AppFridays	app fridays	100
+Apple	apple	120
+Apple Chancery	apple chancery	100
+Apple Configurator	apple configurator	100
+Apple Developer	apple developer	100
+Apple EarPods	apple earpods	100
+Apple File System	apple file system	100
+Apple ID	appleid	100
+Apple Lossless	apple lossless	100
+Apple Music	apple music	100
+Apple News	apple news	100
+Apple Pay	apple pay	100
+Apple Pencil	apple pencil	100
+Apple Remote	apple Remote	100
+Apple Store	apple store	100
+Apple TV	apple tv	100
+Apple Watch	apple watch	100
+AppleCare	apple care	100
+AppleCare+	apple care	100
+AppleMyungjo	apple myungjo	100
+AppleScript	apple script	100
+AppleTalk	apple talk	100
+AppShopper	app shopper	100
+AptBackup	apt backup	100
+Aria2	ariaer	100
+Aria2GUI	ariaergui	100
+Arial Black	arial black	100
+Arial Narrow	arial narrow	100
+Arial Rounded	arial rounded	100
+Arial Unicode	arial unicode	100
+ATM 機	atm ji	100
+Audible Enhanced Audio	audible enhanced audio	100
+AutoCAD	auto cad	100
+B 超	b chao	100
+B 股	b gu	100
+B 淋巴細胞	bi lin ba xi bao	100
+B 細胞	bi xi bao	100
+BBEdit	bb edit	100
+Belkin USB	belkin usb	100
+Better Rename	better rename	100
+BetterSnap Tool	better snap tool	100
+BetterTouchTool	better touch tool	100
+BetterZip	better zip	100
+Beyond Compare	beyond compare	100
+BitDefender	bit defender	100
+BitLocker	bit locker	100
+Bluetooth	blue tooth	100
+BoldItalic	bold italic	100
+Bose soundlink	bose soundlink1000	100
+Bradley Hand	bradley hand	100
+Brush Script	brush script	100
+BundleHunt	bundle hunt	100
+Bypass	by pass	100
+bypass-system	bypass system	100
+bypass-tun	bypass tun	100
+Byword	by word	100
+C 盤	c pan	100
+C 語言	c yu yan	100
+CallMaster	call master	100
+CarPlay	car play	100
+Chalkboard	chalk board	100
+Chalkduster	chalk duster	100
+CheatSheet	cheat sheet	100
+ChemBioDraw	chem bio draw	100
+Cisco IPSec	cisco ipsec	100
+CleanMyMac	clean my mac	100
+CloudApp	cloud app	100
+CloudMagic	cloud magic	100
+Cocoa Touch	cocoa touch	100
+CodeBox	code box	100
+CodeKit	code kit	100
+CodeRunner	code runner	100
+ColorSchemer	color schemer	100
+ColorSnapper	color snapper	100
+Combat Power	combat power	100
+Comic Sans MS	comic sans ms	100
+ConTEXT	con text	100
+Control Center	control center	100
+CorelDRAW	corel draw	100
+Cornerstone	Corner stone	100
+Courier New	courier new	100
+Crimson Editor	crimson editor	100
+Current Mac Bundles	current mac bundles	100
+D 盤	d pan	100
+D-Link	dlink	100
+DailyCost	daily cost	100
+DaisyDisk	daisy disk	100
+Dashboard	dash board	100
+Datagraph	data graph	100
+DataMeter	data meter	100
+Day One	day one	100
+Default Folder X	default folder x	100
+Developer Preview	developer preview	100
+Device Firmware Upgrade	device firmware upgrade	100
+DEVONthink	devon think	100
+DIN Alternate	din alternate	100
+DIN Condensed	din condensed	100
+Disk Utility	disk utility	100
+DiskMaker	disk maker	100
+DisplayPort	display port	100
+Diwan Kufi	diwan kufi	100
+Diwan Thuluth	diwan thuluth	100
+Domain Name System	domain name system	100
+DOMAIN-KEYWORD	domain keyword	100
+DOMAIN-SUFFIX	domain suffix	100
+Double Tour	double tour	100
+Dreammail	dream mail	100
+Dropbox	drop box	100
+Dropshare	drop share	100
+Dropzone	drop zone	100
+DynamicLyrics	dynamic lyrics	100
+E 盤	e pan	100
+EdgeRouter	edge router	100
+EditPad lite	editpad lite	100
+EditPlus	edit plus	100
+EI Capitan	el capitan	100
+EuphemiaCAS	euphemia cas	100
+EV-DO	evdo	100
+ExFAT	wen jian xi tong	100
+ExtraLight	extra light	100
+Facebook	Face book	100
+FaceTime	face time	100
+Fantastical	fan tastical	100
+FAT	wen jian xi tong	100
+FAT32	fat	100
+FAT32	wen jian xi tong	100
+FileBrowser	file browser	100
+FileVault	file vault	100
+Final Cut Pro	final cut pro	100
+Find My iPhone	find my iphone	100
+FineReader	fine reader	100
+Firefox	fire fox	100
+FireWire	fire wire	100
+Focus Pixels	focus pixels	100
+FontAwesome	font awesome	100
+Foobar2000	foobar	100
+Force Touch	force touch	100
+Forecast	fore cast	100
+ForkLift	fork lift	100
+Foxmail	fox mail	100
+Frank DeLoupe	frank deloupe	100
+Fura Code	fura code	100
+Fura Mono	fura mono	100
+Fusion Drive	fusion drive	100
+Game Center	game center	100
+GarageBand	Garage band	100
+Geekbench	geek bench	100
+Genius Bar	genius bar	100
+GhostNote	ghost note	100
+GhostTile	ghost tile	100
+Gif Brewery	gif brewery	100
+Gigabit Ethernet Adapter	gigabit ethernet adapter	100
+GitHub Gist	github	100
+Go2Shell	goershell	100
+Go2Shell	gotushell	100
+GoagentX	go agentx	100
+GOM Player	gom player	100
+GoodReader	good reader	100
+Google Chrome	google chrome	100
+Google Docs	google docs	100
+Google Drive	google drive	100
+Google Keep	google keep	100
+Google Maps	google maps	100
+Google Music	google music	100
+Google Play	google Play	100
+Google Sheets	google sheets	100
+Google Slides	google slides	100
+Great Ball	great ball	100
+H 股	h gu	100
+HanaMin	hana min	100
+Handoff	hang off	100
+HE-AAC	he aac	100
+HeavyItalic	heavy italic	100
+Hermès	hermes	100
+Hoefler Text	hoefler text	100
+HoloLens	holo lens	100
+Homebrew	home brew	100
+HomeKit	home kit	100
+HTC Vive	htc	100
+Hyper Potion	hyper potion	100
+iA Writer	ia writer	100
+iBooks Author	ibooks author	100
+iCloud Drive	icloud drive	100
+iCloud Drive Sync	icloud drive sync	100
+Icons8 App	icons ba	100
+IKEv2	ikev er	100
+ImageOptim	image optim	100
+InaiMathi	inai mathi	100
+Infographics	info graphics	100
+Instacast	insta cast	100
+Instaframe Pro	insta frame pro	100
+Instagram	insta gram	100
+Instashare	insta share	100
+Intellij IDEA	intellij idea	100
+Internet Explorer	internet explorer	100
+iOS 10	ios	100
+iOS 10	ios x	100
+iOS 7	ios	100
+iOS 7	ios qi	100
+iOS 8	ios	100
+iOS 8	ios ba	100
+iOS 9	ios	100
+iOS 9	ios jiu	100
+Iowan Old Style	iowan old style	100
+IP 地址	ip di zhi	100
+IP 電話	ip dian hua	100
+IP 卡	ipka	100
+iPad Air	ipad	100
+iPad mini	ipad	100
+iPad mini 4	ipad	100
+iPad Pro	ipad	100
+iPhone	iphone	120
+iPhone 6	iphone	100
+iPhone 6 Plus	iphone	100
+iPhone 6s	iphone	110
+iPhone 6s Plus	iphone	100
+iPhone 7	iphone	120
+iPhone 7	iphone qi	120
+iPhone 7 Plus	iphone	100
+iPhone 7 Plus	iphone qi	100
+iPhone SE	iphone	100
+iPod classic	ipod	100
+iPod mini	ipod	100
+iPod nano	ipod	100
+iPod shuffle	ipod	100
+iPod touch	ipod	100
+iPod U2	ipod	100
+IPTV	ip tv	100
+IPv4	ip v	100
+IPv4	ip v si	100
+IPv6	ip v	100
+IPv6	ip v liu	100
+iStat Menus	istat menus	100
+iThoughtsX	ithoughts x	100
+iTunes Connect	itunes connect	100
+iTunes Match	itunes match	100
+iTunes U	itunes u	100
+iWatch	i watch	100
+Jailbreak	Jail break	100
+JavaScript	java script	100
+Jietu	jie tu	100
+JS Blocker	js blocker	100
+Just Mobile	just mobile	100
+K 歌	kei ge	100
+Kaleidoscope	kaleido scope	100
+Karabiner	kara biner	100
+Keyboard Maestro	keyboard maestro	100
+Kindle Format	kindle	100
+Kindle Oasis	kindle	100
+Kindle Paperwhite	kindle	100
+Kindle Unlimited	kindle	100
+Kindle Voyage	kindle	100
+KufiStandardGK	kufistandard gk	100
+L2TP	lertp	100
+LaTeXian	la te xian	100
+Launch Center Pro	launch center pro	100
+Launchpad	launch pad	100
+LibreOffice	libre office	100
+LightItalic	light italic	100
+Lightning	light ning	100
+Lightning Digital AV Adapter	lightning digital av adapter	100
+Lightning to USB	lightning to usb	100
+Lightning to VGA Adapter	lightning to vga adapter	100
+LiteBeam	lite beam	100
+Little Snitch	little snitch	100
+Live Cams Pro	live cams pro	100
+Live Photos	live photos	100
+LiveReload	live reload	100
+Living Earth Clock	living earth clock	100
+Local Client	local client	100
+LockScreen	lock screen	100
+Lucky Egg	lucky egg	100
+Lure Module	lure module	100
+MAC 地址	mac di zhi	100
+Mac App Store	mac app store	100
+Mac mini	mac mini	100
+Mac Pro	mac pro	100
+Mac Rumors	mac rumors	100
+MacAppDeals	mac app deals	100
+MacBook	mac book	100
+MacBook Air	macbook	100
+MacBook Pro	macbook	100
+macOS Sierra	macos sierra	100
+MacTips	mac tips	100
+Mactracker	Mac tracker	100
+MacUpdate Desktop	mac update desktop	100
+Mad Catz	mad catz	100
+Magic Keyboard	magic keyboard	100
+Magic Mouse	magic mouse	100
+Magic Mouse 2	magic mouse	100
+Magic Trackpad	magic trackpad	100
+Magic Trackpad 2	magic trackpad	100
+MagSafe	mag safe	100
+MagSafe Power Adapter	mag safe power adapter	100
+Mailbox	mail box	100
+MailTags	mail tags	100
+MAMP PRO	mamp pro	100
+MarkDown	mark down	100
+MarkMyWords	mark mywords	100
+MarsEdit	mars edit	100
+Mathtype	math type	100
+Mercury Browser Pro	mercury browser pro	100
+Metapad	meta pad	100
+Micro SD	microsd	100
+Micro-SIM	microsim	100
+Microsoft Office	microsoft office	100
+Microsoft Sans Serif	micro soft sans serif	100
+Microsoft Virtual PC	microsoft virtual pc	100
+Microsoft Word	microsoft word	100
+Mini DisplayPort	mini display port	100
+Mishafi Gold	mishafi gold	100
+Mission Control	mission control	100
+Mobile Mouse	mobile mouse	100
+Money Monitor	money monitor	100
+Moneywiz	money wiz	100
+MP3	mpsan	100
+MP4	mpsi	100
+Multi-Touch	multi touch	100
+MyriadPro	myriad pro	100
+myTV SUPER	my tv	100
+Nano-SIM	nano sim	100
+NanoBeam	nano beam	100
+NeoeEdit	neoe edit	100
+NetBIOS	net bios	100
+Netflix	net flix	100
+Network Extension	network extension	100
+Niantic Labs	niantic	100
+Niantic, Inc.	niantic	100
+Notability	not ability	100
+Notepad	note pad	100
+Notepad++	note pad	100
+NoteTab	note tab	100
+NTFS	wen jian xi tong	100
+NuPro	nu pro	100
+nvALT	nv alt	100
+Nvidia	nv idia	100
+Objective-C	objective	100
+Oculus Rift	oculus	100
+Oculus VR	oculus	100
+OfficeSuite	office suite	100
+OmmWriter	omm writer	100
+OmniFocus	omni focus	100
+OmniGraffle	omni graffle	100
+OmniOutliner	omni outliner	100
+OmniPlan	omni plan	100
+OneDrive	one drive	100
+OneNote	one note	100
+OpenVPN	open vpn	100
+OperatorMonoSSm	operator mono ssm	100
+Oracle Database	oracle database	100
+OS X	osx	100
+OS X Server	osx	100
+Outlook Express	outlook express	100
+PaintCode	paint code	100
+Parallels Desktop	parallels desktop	100
+PC-cillin	pc cillin	100
+Photo Booth	photo booth	100
+PhotoDesk	photo desk	100
+Photoshop	photo shop	100
+Ping Hei	ping hei	100
+PingWest	ping west	100
+Pixelmator	pixel mator	100
+Play by Play	play by play	100
+PlistEdit	plist edit	100
+Poké Ball	poke ball	100
+Pokémon	pokemon	100
+Pokémon GO	pokemon	100
+Pokétop	poketop	100
+PopClip	pop clip	100
+POS 機	pos ji	100
+POWER UP	power up	100
+PowerBeam	power beam	100
+PowerPack	power pack	100
+PowerPoint	power point	100
+PragmataPro	pragmata pro	100
+Proxy Group	proxy group	100
+PTMono	pt mono	100
+PTSans	pt sans	100
+PTSerif	pt serif	100
+Public Beta	public beta	100
+Q 幣	q q bi	100
+QNAP NAS	qnap nas	100
+QQ 號	q q hao	100
+QQ 號碼	q q hao ma	100
+QQ 會員	q q hui yuan	100
+QQ 空間	q q kong jian	100
+QQ 羣	q q qun	100
+QQ 旋風	q q xuan feng	100
+QQ 郵箱	q q you xiang	100
+QuickTime Player	quick time player	100
+Razz Berry	razz berry	100
+Readability	read ability	100
+Readkit	read kit	100
+RealPlayer	real player	100
+RegularItalic	regular italic	100
+Remote Client	remote client	100
+RescueTime	rescue time	100
+RexEdit	rex edit	100
+RightFont	right font	100
+Rime	zhong zhou yun	100
+RobotoSlab	roboto slab	100
+RocketDish	rocket dish	100
+Roost Laptop Stand Mac	roost laptop stand mac	100
+Ruby on Rails	ruby on rails	100
+Runtastic Pro	run tastic pro	100
+Sabrent USB	sabrent usb	100
+Safari View Controller	safari view controller	100
+SaneDesk	sane desk	100
+Sauce Code Pro	sauce code pro	100
+Scrapbook	scrap book	100
+ScreenFloat	screen float	100
+ScreenFlow	screen flow	100
+Screens VNC	screens vnc	100
+SecureCRT	secure crt	100
+Semibold	semi bold	100
+SemiboldItalic	semi bold italic	100
+SF-UI-Display	sf ui display	100
+SF-UI-Text	sf ui text	100
+SFMono	sf mono	100
+Shadowsocks	shadow socks	100
+SignPainter	sign painter	100
+SIM 卡	sim ka	100
+SimHei	sim hei	100
+Simplenote	simple note	100
+SimpleText	simple text	100
+SimSun	sim sun	100
+Single Tour	single tour	100
+Siri Remote	siri remote	100
+skip-proxy	skip proxy	100
+Sleep Cycle	sleep cycle	100
+Smart Connector	smart connector	100
+Smart Cover	smart cover	100
+Smartisan OS	smartisan	100
+Snapselect	snap select	100
+SnellRoundhand	snell round hand	100
+socks-port	socks port	100
+Softimage	soft image	100
+Software Development Kit	software development kit	100
+Solar Walk	solar walk	100
+Source Insight	source insight	100
+SourceHanSans	source han sans	100
+SourceTree	source tree	100
+Sparkbox	spark box	100
+Specialist	specia list	100
+Speedtest	speed test	100
+Splashtop	splash top	100
+Spotlight	spot light	100
+SQL Server	slq server	100
+Squirrel	shu xu guan	100
+SSLEdge	ssl edge	100
+StackSocial	stack social	100
+Statistics	stati stics	100
+StockWatch	stock watch	100
+Sublime Text	sublime text	100
+Super Potion	super potion	100
+SuperClarendon	super clarendon	100
+Surge iOS	surge ios	100
+Surge Mac	surge mac	100
+SwipeSelection	swipe selection	100
+Symbian	sym bian	100
+Symbol	sym bol	100
+Sync for Firefox	sync for firefox	100
+Synology NAS	synology nas	100
+T 細胞	t xi bao	100
+T 型臺	t xing tai	100
+T 恤	txu	100
+T 恤衫	t xu shan	100
+TCP/IP	tcp ip	100
+TeamViewer	team viewer	100
+TechWeb	tech web	100
+TeeVee	tee vee	100
+TestFlight	test flight	100
+Texshop	tex shop	100
+Textastic	text astic	100
+TextExpander	text expander	100
+TextGrabber	text grabber	100
+TextMate	text mate	100
+TextPad	text pad	100
+TextWrangler	text wrangler	100
+The SemWare Editor	the semware editor	100
+The Unarchiver	the unarchiver	100
+Thunderbird	thunder bird	100
+Thunderbolt	thunder bolt	100
+Thunderbolt Bridge	thunderbolt bridge	100
+Thunderbolt Ethernet	thunderbolt ethernet	100
+Time Capsule	time capsule	100
+Time Machine	time machine	100
+Times New Roman	times new roman	100
+TinkerTool	tinker tool	100
+Touch ID	touch id	100
+TP-LINK	tp link	100
+Trebuchet MS	trebuchet ms	100
+True Tone	true tone	100
+Turbo Boost	turbo boost	100
+Tuxera Disk Manager	tuxera	100
+Tuxera NTFS	tuxera	100
+Tweetbot	tweet bot	100
+Twist Plus	twist plus	100
+U 盾	u dun	100
+U 盤	u pan	100
+U 形管	u xing guan	100
+UAP-AC	uap	100
+UAP-LR	uap	100
+UAP-Outdoor+	uap	100
+UAP-Outdoor5	uap	100
+UAP-PRO	uap	100
+UIM 卡	uim ka	100
+Ultra Ball	ultra ball	100
+UltraEdit	ultra edit	100
+Ultralight	ultra light	100
+Ultrathin	ultra thin	100
+UniFi Security Gateway	unifi	100
+UniFi Switch	unifi	100
+URL Scheme	url scheme	100
+USB-A	usba	100
+USB-C	usbc	100
+USIM 卡	usimka	100
+UUcall	uu call	100
+V2EX	verex	100
+VanDyke Software	vandyke	100
+Virtual private network	virtual private network	100
+VirtualBox	virtual box	100
+WeChat	we chat	100
+WhatsApp	whats app	100
+Whispersync	whisper sync	100
+Wi-Fi	wai fai	100
+Wi-Fi	wi fi	100
+WiFi Explorer	wifi explorer	100
+WiFi Scanner	wifi scanner	100
+Wikipedia	wiki pedia	100
+Window Tidy	window tidy	100
+Windows Live Mail	windows live	100
+Windows Live Mail	windows live mail	100
+Windows Live Messenger	windows live	100
+Windows Live Messenger	windows live messenger	100
+Windows Mobile	windows mobile	100
+Windows Phone	windows phone	100
+Wireless Keyboard	wireless keyboard	100
+WLAN + Cellular	wlan jia	100
+WordStar	word star	100
+Workflow	work flow	100
+WorkFlowy	work flowy	100
+WORKGROUP	work group	100
+WPA2	wpaer	100
+WPS Office	wps office	100
+Writer Pro	writer pro	100
+X 刀	x dao	100
+X 光	x guang	100
+X 染色體	x ran se ti	100
+X 射線	x she xian	100
+X-Ray	xray	100
+Xbox One	xbox	100
+XcodeDigits	xcode digits	100
+XtraFinder	xtra finder	100
+Y 染色體	y ran se ti	100
+YouTube	you tube	100
+Yummy FTP	yummy ftp	100
+z 變換	z bian huan	100
+z 逆變換	z ni bian huan	100
+α 粒子	a er fa li zi	100
+α 射線	a er fa she xian	100
+β 粒子	bei ta li zi	100
+β 射線	bei ta she xian	100
+γ 刀	ga ma dao	100
+γ 射線	ga ma she xian	100
+	apple	100
+ Music	apple	100
+ Music	apple music	100
+ Pay	apple	100
+ Pay	apple pay	100
+ Watch	apple	100
+ Watch	apple watch	100

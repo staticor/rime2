@@ -1,0 +1,19 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.2.9
+#@/tick	9
+#@/user_id	5dd13831-8300-4d3b-9760-622756ea23ba
+a 	啊	c=1 d=1 t=9
+da suan 	打算	c=1 d=1 t=9
+de 	的	c=2 d=1.95072 t=9
+fa cu 	發蹙	c=0 d=0.0995012 t=9
+ha ha 	哈哈	c=1 d=0.99005 t=9
+hao 	好	c=1 d=0.980199 t=9
+kan wan 	看完	c=0 d=0.0970446 t=9
+kan wan kan wan 	看完看完	c=1 d=0.97531 t=9
+mang 	忙	c=0 d=0.099005 t=9
+shang wu 	上午	c=0 d=0.099005 t=9
+shang wu mang 	上午忙	c=1 d=0.995012 t=9
+wo 	我	c=0 d=0.0995012 t=9
+wo fa cu 	我發蹙	c=1 d=1 t=9
