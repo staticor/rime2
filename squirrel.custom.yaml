@@ -54,7 +54,7 @@ patch:
 
 # 如果想要修改皮肤，直接更改 color_scheme 的值即可
   style:
-    color_scheme: apathy
+    color_scheme: tantsing
 
   preset_color_schemes:
     mojave_dark:
@@ -314,3 +314,16 @@ patch:
       inline_preedit: true
       line_spacing: 5
       spacing: 10
+    tantsing":  # 在配色方案列表裏加入標識爲 tantsing 的新方案
+      author: Mijiag
+      back_color: 0xE3E3E3
+      border_color: 0x000000
+      candidate_text_color: 0x000000
+      font_face: 'FZZJ-JHTJW,PingFang SC Light'
+      comment_text_color: 0x474747
+      hilited_back_color: 0x1A0791
+      hilited_candidate_back_color: 0x6F0B73
+      hilited_candidate_text_color: 0xE3E3E3
+      hilited_text_color: 0xE3E3E3
+      name: "丹青／Tantsing"
+      text_color: 0x000000
