@@ -12,7 +12,8 @@ patch:
     caption: "〔切换〕"          #把默认的“方案選單”修改为了“切换”。
     fold_options: true
     hotkeys:
-      - "Control+S"   #默认方案
+    
+      - "Command+Shift+X"   #默认方案
 
     option_list_separator: "／"   #以下都为默认custom.yaml文件的默认配置，copy过来就可以。
     save_options:

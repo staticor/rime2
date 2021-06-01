@@ -1,39 +1,25 @@
 # squirrel.custom.yaml
 patch:
   # us_keyboard_layout: true         # 键盘选项：应用美式键盘布局# show_notifications_when: growl_is_running  # 狀態通知，默認裝有Growl時顯示，也可設爲全開（always）全關（never）
-    style/color_scheme: Maple Magenta
-
-
-  name: 枫红 / Maple Magenta
-  author: "KyleBing <https://kylebing.cn>"
-  alpha: 1.0                                # 候选窗口透明度：符点型数据，小数点形式，不然出错无法正常显示皮肤
-  border_height: 5                          # 边距 - 面板上下
-  border_width: 5                           # 边距 - 面板左右地
-  border_color: 0xDAE0DA                    # 颜色 - 边框
-  back_color: 0xF4F4F6                      # 颜色 - 面板背景
-  label_color: 0xaaaaaa                     # 颜色 - 候选序号
-  # font_face: PingFang SC                    # 字体 - 候选文字
-  font_point: 18                            # 字体大小 - 候选
-  # label_font_face: Arial                    # 字体 - 候选数字
-  label_font_point: 18                      # 字体大小 - 候选序号
-  corner_radius: 5                          # 候选框圆角大小
-
-  # %c 是候选序号 %@ 是候选词
-  candidate_format: "%c %@ "               # 候选词格式，后面多个空格是为了增加候选词之间的距离
-
-  horizontal: true                         # 是否横向 true 或 false
-  line_spacing: 5                          # horizontal 为 false 时，上下候选的间隔大小
-
-  hilited_corner_radius: 5                  # 圆角 - 首选候选词
-  hilited_candidate_text_color: 0x4F11FA    # 颜色 - 首选候选词 - 文字
-  hilited_candidate_back_color: 0xEDEDF9    # 颜色 - 首选候选词 - 背景  8位的前两位是颜色透明度，00就是透明，FF就是不透明
-  hilited_candidate_label_color: 0x884F11FA # 颜色 - 首选候选词 - 序号
-  hilited_comment_text_color: 0xF19C38      # 颜色 - 首选候选词 - 提示编码
-  candidate_text_color: 0x222222            # 颜色 - 其它候选词 - 文字
-  comment_text_color: 0x5AC461              # 颜色 - 其它候选词 - 提示编码
-
-  inline_preedit: true                      # 输入的编码是否直接写入到输入框中，如果为 false，未上屏的编码就会写在候选框中
-  spacing: 5                                # 当 inline_preedit 为 false 时，编码会出现在候选面板中，该值控制编码与候选词之间的距离
-  # inline_preedit 为 false 时
-  hilited_text_color: 0x8E8E93              # 颜色 - 输入中 - 编码
-  hilited_back_color: 0xEFEFF4              # 颜色 - 输入中 - 背景
+    style/color_scheme: demo         # 选择配色方案
+    style/horizontal: true# 候选窗横向显示# style/inline_preedit: false   # 关闭内嵌编码，这样就可以显示首行的拼音（MAC下不建议开启）
+    style/corner_radius: 3# 窗口圆角半径
+    style/border_height: 4# 窗口边界高度，大于圆角半径才有效果
+    tyle/border_width: 4# 窗口边界宽度，大于圆角半径才有效果# style/line_spacing: 1         # 候选词的行间距# style/spacing: 5              # 在非内嵌编码模式下，预编辑和候选词之间的间距
+    style/font_face: "Lantinghei TC Extralight"# 预选栏文字字体，使用中文字体：兰亭黑-纤黑
+    style/font_point: 17#预选栏文字字号
+    style/label_font_face: "Myriad Pro Light"# 预选栏编号字体，使用西文字体：Myriad Pro Light
+    style/label_font_point: 17#预选栏编号字号#上述是候选栏的基本设置，确定了文字的大小和候选栏的外观样式。#下面是“demo”样式文件的配置，主要确定候选栏颜色配置。
+    preset_color_schemes:
+    demo:        #样式名称，就是上述“style/color_scheme: demo”
+    author: "***** <****@gmail.com>"#作者
+    name: "无语／*****"#作者名字
+    label_color: 0xf2a45a#预选栏编号颜色
+    back_color: 0x333333#背景颜色
+    candidate_text_color: 0xb9b9b9#非第一后选项文字颜色
+    comment_text_color: 0xa5a5a5#注解文字颜色
+    hilited_candidate_back_color: 0x333333#第一后选项背景颜色
+    hilited_candidate_text_color: 0xff7d00#第一后选项文字颜色
+    hilited_comment_text_color: 0x00a5ea#注解文字高亮
+    hilited_text_color: 0x7fffff#拼音串高亮（需要开启内嵌编码）
+    text_color: 0xa5a5a5#拼音串颜色（需要开启内嵌编码）

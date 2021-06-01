@@ -1,12 +1,12 @@
 var:
-  last_build_time: 1622462467
+  last_build_time: 1622516004
   option:
     ascii_punct: false
   previously_selected_schema: wubi_pinyin
   schema_access_time:
-    luna_pinyin: 1602907060
+    luna_pinyin: 1622470983
     luna_pinyin_simp: 1602908307
     stroke: 1602907269
     terra_pinyin: 1602907277
-    wubi_pinyin: 1603268253
+    wubi_pinyin: 1622471177
     wubixinshiji: 1603267533
